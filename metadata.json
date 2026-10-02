@@ -1,0 +1,8 @@
+{
+  "name": "Agent Reach Dashboard",
+  "description": "Give your AI Agent eyes to see the entire internet. Monitor, test, and configure 16+ search and reading channels including Web, GitHub, Reddit, Twitter, and RSS.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
