@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Copy, Check, Loader2, Sparkles, Globe, Github, MessageSquare, Rss, Search, Video } from 'lucide-react';
+import { Send, Copy, Check, Loader2, Sparkles, Globe, Code, MessageSquare, Rss, Search, Video } from 'lucide-react';
 
 interface PlaygroundTabProps {
   initialChannel?: string;
@@ -21,7 +21,7 @@ export const PlaygroundTab: React.FC<PlaygroundTabProps> = ({ initialChannel = '
 
   const channels = [
     { id: 'web', name: 'Web Reader (Jina / Direct)', icon: Globe },
-    { id: 'github', name: 'GitHub Repo / Search', icon: Github },
+    { id: 'github', name: 'GitHub Repo / Search', icon: Code },
     { id: 'reddit', name: 'Reddit Discussions', icon: MessageSquare },
     { id: 'rss', name: 'RSS / Atom Reader', icon: Rss },
     { id: 'v2ex', name: 'V2EX Hot Topics', icon: Sparkles },
